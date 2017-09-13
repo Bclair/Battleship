@@ -9,6 +9,13 @@ div#board {
 	background: url("board.jpg") no-repeat;
 }
 
+div#messageArea {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #fff;
+}
+
 h1{
     color: white;
 }
