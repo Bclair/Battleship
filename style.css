@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Orbitron');
+
+:root {
+	--base: #000000;
+}
+
+
 body {
-	background-color: black;
+	background-color: var(--base);
+	font-family: 'Orbitron','Anton', sans-serif;
 }
 div#board {
 	position: relative;
@@ -43,7 +51,8 @@ form input {
 }
 
 h1{
-    color: white;
+	color: white;
+	text-align: center;
 }
 
 .hit {
